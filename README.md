@@ -3,6 +3,8 @@
 This is repository is fork of [ahawkins/docker-thrift](https://github.com/ahawkins/docker-thrift) that
 does not seem to be actively maintained - see [ahawkins/docker-thrift/pull/22](https://github.com/ahawkins/docker-thrift/pull/22).
 
+The new versions, starting with 0.13 are published as `jaegertracing/thrift`. The older versions are available from the official `thrift` organization e.g. `docker pull thrift:0.9.2`.
+
 > The Apache Thrift software framework, for scalable cross-language
 > services development, combines a software stack with a code generation
 > engine to build services that work efficiently and seamlessly between
