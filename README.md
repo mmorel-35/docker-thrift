@@ -17,9 +17,9 @@ Read more about [Thrift](https://thrift.apache.org).
 
 This is image is intended to run as an executable. Files are provided
 by mounting a directory. Here's an example of compiling
-`service.thrift` to ruby.
+`service.thrift` to golang.
 
-    docker run -v "$(pwd):/data" jaegertracing/thrift thrift --gen rb /data/service.thrift
+    docker run -v "$(pwd):/data" jaegertracing/thrift thrift --gen go /data/service.thrift
 
 # Language Specific Installations
 
@@ -28,10 +28,3 @@ additional things to install besides the thrift compiler. They are
 listed below:
 
 * Go - `go fmt` from go 1.4
-
-# Build and publish 
-
-```
-docker build -f 0.14/Dockerfile  -t jaegertracing/thrift:0.14 .
-docker push jaegertracing/thrift:0.14
-```
