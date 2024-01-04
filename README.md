@@ -1,5 +1,7 @@
 # Thrift Docker Image
 
+A Docker image that includes Thrift compiler and dependencies to generate types from Jaeger's Thrift data model.
+
 This is repository is fork of [ahawkins/docker-thrift](https://github.com/ahawkins/docker-thrift) that
 does not seem to be actively maintained - see [ahawkins/docker-thrift/pull/22](https://github.com/ahawkins/docker-thrift/pull/22).
 
