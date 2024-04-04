@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-ENV THRIFT_VERSION v0.19.0
+ENV THRIFT_VERSION v0.20.0
 
 ENV BUILD_DEPS "automake bison curl flex g++ libboost-all-dev libevent-dev libssl-dev libtool make pkg-config"
   
